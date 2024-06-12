@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background: linear-gradient(to right, rgb(103, 101, 101), rgb(217, 216, 216));
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: rgb(189, 255, 216);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+textarea {
+    width: 600px;
+    height: 250px;
+    background-color: rgb(172, 220, 217);
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+textarea::placeholder {
+    font-size: 16px;
+    color: black;
+}
+
+.scroll {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background: rgb(172, 220, 217);
+    color: black;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;   
+}
+
+.hear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+i {
+    text-align: center;
+    height: 38.4px;
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 23px;
+    background: rgb(172, 220, 217);
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+select {
+    flex: 1;
+    color: black;
+    background-color: rgb(172, 220, 217);
+    height: 38.4px;
+    padding: 0 20px;
+    outline: none;
+    border: 0;
+    border-radius: 35px;
+}
